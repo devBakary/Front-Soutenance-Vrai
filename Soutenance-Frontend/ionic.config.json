@@ -1,0 +1,7 @@
+{
+  "name": "soutenanceFront",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "soutenanceFront",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
