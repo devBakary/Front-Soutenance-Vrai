@@ -6,6 +6,16 @@ hr{
   width: 200px;
   background-color: black;
 }
+.principale{
+  height: 90vh;
+  width: 100%;
+  margin-top: 3%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  padding: 35px;
+  background-color: white;
+  opacity: 0.9;
+}
 input{
   border: none;
   outline: none;
@@ -47,7 +57,17 @@ td label{
   background-color: white;
   color: #5fdef5;
   border-radius: 12px;
-  margin-left: 2%;
+  // margin-left: 2%;
+  width: 160px;
+  height: 50px;
+  font-weight: 400;
+}
+.btnAjout {
+  border: 2px solid #5fdef5;
+  background-color: white;
+  color: #5fdef5;
+  border-radius: 12px;
+  // margin-left: 2%;
   width: 200px;
   height: 50px;
   font-weight: 400;
@@ -58,17 +78,43 @@ td label{
   background-color: #5fdef5;
   color: white;
 }
-
-.form {
-  height: 90vh;
-  width: 45%;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
-  border-radius: 5px;
-  position: relative;
-  top: 5%;
+.btnAjout:hover {
+  border: 1px solid white;
+  background-color: #5fdef5;
+  color: white;
 }
 
-.contenu {
-  color: #ffffff;
+.form {
+  width: auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  // position: relative;
+  // top: 5%;
+  background-color: white;
+}
 
+.tabl{
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  background-color: white;
+  
+  width: auto;
+}
+
+.tables{
+  height: 50px;
+  background-color: red;
+  border-radius: 20px 20px 0 0;
+}
+.sh{
+  border: 1px solid black;
+}
+
+.boite{
+  height: 80px;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  padding: 10px;
 }

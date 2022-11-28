@@ -1,0 +1,33 @@
+.navigation{
+    background-color: green;
+    text-align: center;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+}
+.p{
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+}
+a:hover{
+    width: 50px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 49px;
+    padding: 10px;
+    color: black;
+}
+.trait{
+    background-color: green;
+    height: 2px;
+}

@@ -30,7 +30,15 @@ const routes: Routes = [
   {
     path: 'dette',
     loadChildren: () => import('./dette/dette.module').then( m => m.DettePageModule)
+  },  {
+    path: 'nav-bar',
+    loadChildren: () => import('./nav-bar/nav-bar.module').then( m => m.NavBarPageModule)
   },
+  {
+    path: 'depense',
+    loadChildren: () => import('./depense/depense.module').then( m => m.DepensePageModule)
+  },
+
 ];
 
 @NgModule({
